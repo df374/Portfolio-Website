@@ -1,3 +1,7 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+
+
 .nav ul {
 	  list-style: none;
       background-color: #444;
@@ -19,16 +23,19 @@
 }
 
 .nav li {
-	  font-family: 'Roboto', sans-serif;
+	  font-family: 'Raleway', sans-serif;
+    font-weight: 300;
       font-size: 1.2em;
       line-height: 10em;
-      height: 10em;
+      height: 3em;
       border-bottom: 0.1em solid #888;
 }
 
 
  @media screen and (min-width: 600px) {
  	.nav li {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
     width: 7.5em;
     border-bottom: none;
     height: 3em;
@@ -41,3 +48,43 @@
     display: inline-block;
     margin-right:-0.1em;
   }
+
+#swatch-1 {
+  background-color:#263238;
+  padding:3em;
+  width:40%;
+  display:block;
+}
+
+#swatch-2 {
+  background-color:#36474F;
+  padding:3em;
+  width:40%;
+  display:block;
+}
+
+#swatch-3 {
+  background-color:#80ccad;
+  padding:3em;
+  width:40%;
+  display:block;
+}
+
+#swatch-4 {
+  background-color:#b4e1d3;
+  padding:3em;
+  width:40%;
+  display:block;
+}
+
+#swatch-5 {
+  background-color:#f1f4f5;
+  padding:3em;
+  width:40%;
+  display:block;
+}
+
+img{
+  height: auto;
+  max-width:100%;
+}
