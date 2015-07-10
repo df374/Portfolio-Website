@@ -1,0 +1,43 @@
+.nav ul {
+	  list-style: none;
+      background-color: #444;
+      text-align: center;
+      margin:none;
+      padding:0.6em;
+      width:99%;
+      height:75%;
+}
+
+.nav a {
+	color:white;
+	text-decoration: none;
+}
+
+.nav a:hover {
+	color:#72c0c0;
+	transition: .3s color;
+}
+
+.nav li {
+	  font-family: 'Roboto', sans-serif;
+      font-size: 1.2em;
+      line-height: 10em;
+      height: 10em;
+      border-bottom: 0.1em solid #888;
+}
+
+
+ @media screen and (min-width: 600px) {
+ 	.nav li {
+    width: 7.5em;
+    border-bottom: none;
+    height: 3em;
+    line-height: 3em;
+    font-size: 1.4em;
+  }
+ 
+  /* Option 1 - Display Inline */
+  .nav li {
+    display: inline-block;
+    margin-right:-0.1em;
+  }
