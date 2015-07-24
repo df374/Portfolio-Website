@@ -1,0 +1,81 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>Home</title>
+
+
+    <link rel="stylesheet" href="css/style.css">
+    
+
+</head>
+
+
+	<body>
+
+	<!--Logo Banner above Navigation Menu
+  <header class="header">
+    <div class="header-align">
+      <a class="logo" href="Main.html"></a>
+    </div>
+
+    <nav class="menu">
+      <div class="header-align">
+        <ul>
+        <li class="home"><a class="link-active" href="Main.html">Home</a></li>
+        <li class="works"><a href="Works.html">Works</a></li>
+        <li class="about"><a href="About.html">About</a></li>
+        <li class="contact"><a href="Contact.html">Contact</a></li>
+      </ul>
+      </div>
+    </nav>
+  </header>
+-->
+
+    <div class = "header">
+      <div class = "header-content">
+        <ul>
+        <li class="home"><a class="link-active" href="Main.html">Home</a></li>
+        <li class="works"><a href="Works.html">Works</a></li>
+        <li class="about"><a href="About.html">About</a></li>
+        <li class="contact"><a href="Contact.html">Contact</a></li>
+      </ul>
+        
+      <div class="logo">
+          <a href="Main.html"><img alt="logo-image" src="img/logo-placeholder.png" width="50" height="50"></a>
+      </div>
+        
+      </div>  
+
+    </div>
+
+     <p class="intro-text">I create visual communication
+      through graphic & print design
+    </p>
+
+     <h2 class="page-headings">Abilities</h2>
+     <a class="graphics-img" href="#"><img alt="graphic-design" src="img/placeholder.png" width="400" height="400"></a>
+
+
+   
+    
+
+
+  
+
+     
+
+    <a href="Works.html" class="view-work-btn" role="view-works">View Work</a>
+
+ 
+
+  </body>
+
+</html>
