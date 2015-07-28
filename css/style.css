@@ -187,10 +187,22 @@ form p {
   border-bottom:0.1em solid white;
 }
 
+.works-heading {
+  border-bottom:0.1em solid white;
+  font-size:1.3em;
+  color:white;
+  padding:0.2em;
+  width:80%;
+  position:absolute;
+  left:7em;
+  top:30em;
+  text-align: center;
+}
+
 .intro-text {
   position:relative;
-  top:10em;
-  left:24em;
+  top:14.5em;
+  left:25em;
   color:white;
 }
 
@@ -260,6 +272,28 @@ form p {
   top:20em;
   left:15em;
 }
+
+
+.work-one {
+  position:relative;
+  top:25em;
+  left:50em;
+}
+
+.work-two {
+  position:relative;
+  top:25em;
+  right:6em;
+}
+
+.work-one:hover {
+  opacity:0;
+}
+
+.work-two:hover {
+  opacity:0;
+}
+
 .border {
   width:80%;
   border:0.1em solid white;
@@ -270,10 +304,12 @@ form p {
 
 .works-icons {
   position:absolute;
+  top:50em;
+  left:7em;
   float:left;
   display: block;
-  padding:2.5em;
-  margin:2em;
+ 
+
 }
 
 .work-detail-img {
@@ -471,12 +507,15 @@ position: absolute;
 
 .view-work-btn {
   position:relative;
-  top:-12em;
-  left:8.5em;
+  top:-5em;
+  left:4em;
   border:0.1em solid white;
   border-radius:0.3em;
-  padding:0.9em;
-  margin:auto;
+  padding-left: 1.9em;
+  padding-right:1.9em;
+  padding-top:1em;
+  padding-bottom:1em;
+  margin:1em;
   width:100%;
   text-decoration: none;
   color:#6ab8e7;
@@ -487,8 +526,11 @@ position: absolute;
 .view-work-btn:hover {
   border-radius:0.3em;
   border:0.1em solid white;
-  padding:0.9em;
-  margin:auto;
+  padding-left: 1.9em;
+  padding-right:1.9em;
+  padding-top:1em;
+  padding-bottom:1em;
+  margin:1em;
   width:100%;
   background-color:white;
   color:#0099CC;
@@ -497,11 +539,58 @@ position: absolute;
 
 .view-work-btn:active {
   border:0.1em solid white;
-  padding:0.4em;
-  margin:auto;
+  padding-left: 1.9em;
+  padding-right:1.9em;
+  padding-top:1em;
+  padding-bottom:1em;
+  margin:1em;
   width:100%;
   color:#b5deec;
-  padding:0.9em;
+
+}
+
+
+.about-me-btn {
+  position:relative;
+  top:-5em;
+  left:5em;
+  border:0.1em solid white;
+  border-radius:0.3em;
+  padding-left: 1.9em;
+  padding-right:1.9em;
+  padding-top:1em;
+  padding-bottom:1em;
+  margin:1em;
+  width:100%;
+  text-decoration: none;
+  color:#56ff56;
+  font-weight: 600;
+
+}
+
+.about-me-btn:hover {
+  border-radius:0.3em;
+  border:0.1em solid white;
+  padding-left: 1.9em;
+  padding-right:1.9em;
+  padding-top:1em;
+  padding-bottom:1em;
+  margin:1em;
+  width:100%;
+  background-color:white;
+  color:#5ec478;
+
+}
+
+.about-me-btn:active {
+  border:0.1em solid white;
+  padding-left: 1.9em;
+  padding-right:1.9em;
+  padding-top:1em;
+  padding-bottom:1em;
+  margin:1em;
+  width:100%;
+  color:#b5deec;
 
 }
 
