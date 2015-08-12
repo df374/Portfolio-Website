@@ -1,0 +1,273 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <title>Portoflio Style Guide</title>
+
+
+  <link rel="stylesheet" href="css/style-guide.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,100,300,700' rel='stylesheet' type='text/css'>
+  
+
+
+</head>
+
+
+<body>
+
+ <h2>Portfolio Style Guide</h2>
+ <p>Delaram Fathi - 301179091</p>
+ <a href="Main.html">Home</a>
+
+
+    <section>
+    <h2>Main Navigation/Header</h2>
+    <h3>CSS selector:</h3>
+    <h4>Code:</h4>
+    <code>&lt;ul&gt;
+          &lt;li class="home"&gt;&lt;a class="link-active" href="Main.html"&gt;Home&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;</code>
+
+    <h2>Rendered Element</h2>
+       <div class="grid-container">
+    <div class="navigation">
+      <div class="nav-content">
+        <ul>
+          <li class="home"><a class="link-active" href="Main.html">Home</a></li>
+          <li class="about"><a href="About.html">About</a></li>
+          <li class="contact"><a href="Contact.html">Contact</a></li>
+        </ul>
+        
+        <div class="logo">
+          <a href="Main.html"><img alt="logo" src="img/df-logo.png" width="150" height="150"></a>
+        </div>
+        
+      </div>  
+
+
+
+    </div>
+    
+  </div>
+
+
+
+  </section>
+
+
+  <section>
+    <h2>Footer</h2>
+    <h3>CSS selector:</h3>
+    <h4>Code:</h4>
+    <code>&lt;footer&gt;  
+  &lt;div class="footer-container"&gt;
+  &lt;p&gt;Delaram Fathi ©2015. All rights reserved.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/footer&gt;</code>
+
+    <h2>Rendered Element:</h2>
+    
+    <footer>  
+      <div class="footer-container">
+        
+        Delaram Fathi ©2015. All rights reserved.
+        
+      </div>
+    </footer>
+  </section>
+
+  <section>
+    <h2>Navigation Button</h2>
+    <h3>CSS selector .name-of-btn eg "about-me-btn"</h3>
+    <h4>Code:</h4>
+    <code>&lt;a href="About.html" class="about-me-btn" role="button"&gt;About Me&lt;/a&gt;</code>
+
+    <h2>Rendered Element:</h2>
+     
+      <a href="About.html" class="about-me-btn" role="button">About Me</a>
+  </section>
+
+
+  <section>
+    <h2>Form</h2>
+    <h3>CSS selector: form, input, .text-input-field-'field type' </h3>
+    <h4>Code:</h4>
+    <code>&lt;form class ="text-input-field-contact"&gt;
+  &lt;p&gt;Name:&lt;/p&gt;
+          &lt;input type="text" class="input" id="name-field" name="name"&gt;
+        &lt;/form&gt;</code>
+
+    <h2>Rendered Element:</h2>
+     <div class="grid">
+    <h1>Say Hello!</h1>
+    <div class="grid-col-5of10">
+     
+      <div class="form-container">
+        <!-- Enter Name -->
+        <form class ="text-input-field-name">
+          <p>Name:</p>
+          <input type="text" class="input" id="name-field" name="name">
+        </form>
+        
+        <!--Enter Email box--> 
+        <form class ="text-input-field-email">
+          <p>Email Address:</p>
+          <input type="text" class="input" id="email-field" name="email">
+        </form>
+        
+        <!--Contact Number -->
+        <form class ="text-input-field-number">
+          <p>Phone Number(Optional):</p>
+          <input type="text" class="input" id="phone-field" name="phone">
+        </form>
+        
+        <!-- Message Area -->
+        <form class ="text-input-field-msg">
+          <p>Message:</p>
+          <textarea cols="25" rows="10"></textarea>
+        </form>
+        
+        <div class="grid-col-2of10">
+          <a href="Contact.html" class="send-btn">Send</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  <section>
+    <h2>Typography</h2>
+    <h3>CSS selector: no selectors just font-family</h3>
+    <h4>Code:</h4>
+    <code>&lt;link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'&gt;</code>
+    <code>&lt;link href='http://fonts.googleapis.com/css?family=Lato:400,100,300,700' rel='stylesheet' type='text/css'&gt;
+  </code>
+
+    <h2>Rendered Element:</h2>
+    <h1>Lato</h1>
+    <h1>Open Sans</h1>
+    </section>
+
+  
+
+<section>
+    <h2>Headings</h2>
+    <h3>CSS selector: h1, h2, h3, h4, h5, h6, .title-headings, .img-title, .img-type, .tool-headings </h3>
+    <h4>Code:</h4>
+    <code>&lt;h1 class=&quot;title-headings&quot;&gt;Works&lt;/h1&gt;</code>
+
+    <h2>Rendered Element:</h2>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+</section>
+
+  <section>
+    <h2>Colour</h2>
+    <h3>CSS selector: just hex #</h3>
+    <h4>Code: none available</h4>
+
+    <h2>Rendered Element:</h2>
+    <div id="swatch"> 
+      <div id="swatch1"> 
+        <p>#2E2E2E</p> 
+        </div> 
+        <div id="swatch2"> 
+        <p>#75d6b3</p> 
+        </div> 
+        <div id="swatch3"> 
+        <p>#D6B375</p> 
+        </div> 
+        <div id="swatch4"> 
+        <p>#FFFB9F</p> 
+        </div> 
+        <div id="swatch5"> 
+        <p>#56ff56</p> 
+        </div> 
+        <div id="swatch6"> 
+        <p>#0099CC</p> 
+        </div> 
+        <div id="swatch7"> 
+        <p>#0099CC</p> 
+        </div> 
+      </div>
+  </section>
+
+
+
+  <section>
+    <h2>Paragraph</h2>
+    <h3>CSS selector:p, intro-text, .contact-text, .brochure-intro, .gotham-intro</h3>
+    <h4>Code:</h4>
+    <code>&lt;p&gt;A regular paragraph is like this. There are some paragraphs that differ based on the grid layout they are in and/or specifc p class additions&lt;/p&gt;
+</code>
+
+    <h2>Rendered Element:</h2>
+    <p>A regular paragraph is like this. There are some paragraphs that differ based on the grid layout they are in and/or specifc p class additions</p>
+    </section>
+
+<section>
+    <h2>Works Icons</h2>
+    <h3>CSS selector:.circle-craft-img, a, .grid, .grid-col-5of10</h3>
+    <h4>Code:</h4>
+    <code> &lt;a href=&quot;Brochure-Detail.html&quot; title=&quot;Circle Craft-2014&quot;&gt;&lt;img class=&quot;circle-craft-img&quot; src=&quot;img/circle-craft.png&quot; alt=&quot;circle-craft-icon&quot;&gt;&lt;/a&gt;
+
+      
+      &lt;h2 class=&quot;img-title&quot;&gt;&lt;span class=&quot;craft&quot;&gt;Circle Craft Brochure&lt;/span&gt;&lt;/h2&gt;
+      &lt;h3 class=&quot;img-type&quot;&gt;Type: Brochure/Promotional&lt;/h3&gt;
+      </code>
+
+    <h2>Rendered Element:</h2>
+    <div class="grid">
+    <div class="heading-container">
+      <h1 class="title-headings">Works</h1>
+    </div>
+    <div class="grid-col-5of10">
+
+      <a href="Brochure-Detail.html" title="Circle Craft-2014"><img class="circle-craft-img" src="img/circle-craft.png" alt="circle-craft-icon"></a>
+
+      
+      <h2 class="img-title"><span class="craft">Circle Craft Brochure</span></h2>
+      <h3 class="img-type">Type: Brochure/Promotional</h3>
+      
+      
+    </div>
+    
+
+    <div class="grid-col-5of10">
+     <a href="Poster-Detail.html" title="Gotham-Poster"><img class="poster-img" src="img/poster.png" alt="poster-icon"></a>
+     
+     <h2 class="img-title-2"><span class="poster">Gotham Typeface Poster</span></h2>
+     <h3 class="img-type-2">Type: Poster/Print</h3>
+     
+   </div>
+
+ </div>
+
+  </section>
+
+
+
+
+   
+
+
+    
+
+</body>
+
+</html>
+

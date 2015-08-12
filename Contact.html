@@ -6,126 +6,109 @@
 
 	<meta charset="utf-8">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-    <title>Contact</title>
+  <title>Contact</title>
 
 
-    <link rel="stylesheet" href="css/style.css">
-    
-    <script src="https://maps.googleapis.com/maps/api/js"></script>
-    <script>function initialize() {
-      var mapCanvas = document.getElementById('map-canvas');
-        var mapOptions = {
-          center: new google.maps.LatLng(49.2827, -123.1207),
-          zoom: 8,
-          mapTypeId: google.maps.MapTypeId.ROADMAP
-        }
-        var map = new google.maps.Map(mapCanvas, mapOptions)
-
-          var marker = new google.maps.Marker({
-                    position: new google.maps.LatLng(49.2827, -123.1207),
-                    map: map,
-                    title: 'Marker'
-                });
-
-          var infowindow = new google.maps.InfoWindow({
-          content:"Vancouver, Canada"
-        });
-
-        infowindow.open(map,marker);
-
-
-      }
-      google.maps.event.addDomListener(window, 'load', initialize);
-
-    
-
-
-    </script>
-    } </script>
+  <link rel="stylesheet" href="css/main.css">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,100,300,700' rel='stylesheet' type='text/css'>
+  
+  
 
 </head>
 
 
-	<body>
+<body>
 
-	<!--Logo Banner above Navigation Menu-->
-
-  
-<div class = "header">
-      <div class = "header-content">
+  <div class="grid-container">
+    <div class="navigation">
+      <div class="nav-content">
         <ul>
-        <li class="home"><a class="link-active" href="Main.html">Home</a></li>
-        <li class="works"><a href="Works.html">Works</a></li>
-        <li class="about"><a href="About.html">About</a></li>
-        <li class="contact"><a href="Contact.html">Contact</a></li>
-      </ul>
+          <li class="home"><a href="Main.html">Home</a></li>
+          <li class="about"><a href="About.html">About</a></li>
+          <li class="contact"><a class="link-active" href="Contact.html">Contact</a></li>
+        </ul>
         
-      <div class="logo">
-          <a href="Main.html"><img alt="logo-image" src="img/logo-placeholder.png" width="50" height="50"></a>
-      </div>
+        <div class="logo">
+          <a href="Main.html"><img alt="logo-header" src="img/df-logo.png" width="150" height="150"></a>
+        </div>
         
       </div>  
 
     </div>
+  </div>
 
-
-  <!--Contact Form-->
-
-   <div class="grid-contacts">
-
-       
-          
-            <h2 class="page-headings">Contact Me!</h2>
-
-             <div class="contact-container">
-            <!-- Enter Name -->
-             <form class ="text-input-field-contact">
-              <p>Name*:</p>
-              <input type="text" class="input" id="name-field" name="name">
-            </form>
-             
-             <!--Enter Email box--> 
-            <form class ="text-input-field-contact">
-              <p>Email Address*:</p>
-
-              <input type="text" class="input" id="email-field" name="email">
-            </form>
-
-            <!--Contact Number -->
-
-            <form class ="text-input-field-contact">
-              <p>Contact Number (Optional):</p>
-
-              <input type="text" class="input" id="email-field" name="email">
-            </form>
-            
-            
-            <!-- Subject or Main Question Box -->
-            <form class ="text-input-field-msg">
-              <p>Message*:</p>
-              <textarea cols="25" rows="10"></textarea>
-            </form>
-
-            <p> * Required Fields </p>
-
-            <!-- Button -->
-           
-             <button class="button-send" name="Send">Send</button>
-             <div class="clear">
-             </div>
-          </div>
-           
-
-          </div>
-    
-    <div id="map-canvas">
+  <div class="grid">
+    <h1>Say Hello!</h1>
+    <div class="grid-col-5of10">
+     
+      <div class="form-container">
+        <!-- Enter Name -->
+        <form class ="text-input-field-name">
+          <p>Name:</p>
+          <input type="text" class="input" title="name-field" name="name">
+        </form>
+        
+        <!--Enter Email box--> 
+        <form class ="text-input-field-email">
+          <p>Email Address:</p>
+          <input type="text" class="input" title="email-field" name="email">
+        </form>
+        
+        <!--Contact Number -->
+        <form class ="text-input-field-number">
+          <p>Phone Number(Optional):</p>
+          <input type="text" class="input" title="phone-field" name="phone">
+        </form>
+        
+        <!-- Message Area -->
+        <form class ="text-input-field-msg">
+          <p>Message:</p>
+          <textarea cols="25" rows="10" title="enter-message"></textarea>
+        </form>
+        
+        <div class="grid-col-2of10">
+          <a href="Contact.html" class="send-btn">Send</a>
+        </div>
+      </div>
 
     </div>
+    
+    <div class="grid-col-5of10">
 
-     
-  </body>
+      <div class="contact-text-container">
+
+        <p class="contact-text">Feel free to contact me if you have a project or an idea that I could help you create! I am open to questions, comments, critiques, collaborative opportunities and freelance work.</p>
+        
+        
+        <p class="contact-info">phone: 604 831-2120 email: <br> delfathi@gmail.com </p>
+        
+      </div>
+
+
+      <div class="grid-col-10of10">
+        <a class="vancity-img" title="Vancouver, BC"><img alt="vancouver-bc" src="img/vancity.png" ></a>
+      </div>
+    </div>
+
+    
+
+  </div>
+
+
+  <footer>  
+    <div class="footer-container">
+      
+      Delaram Fathi ©2015. All rights reserved.
+      
+    </div>
+  </footer>
+
+
+</body>
 
 </html>
+
